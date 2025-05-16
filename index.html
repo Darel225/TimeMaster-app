@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeMaster - Gestion du Temps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🕒 TimeMaster</h1>
+
+    <section class="widget" id="clock">
+      <h2>Horloge en temps réel</h2>
+      <div class="output" id="realtime-clock">--:--:--</div>
+    </section>
+
+    <section class="widget" id="countdown">
+      <h2>Compte à rebours</h2>
+      <input type="datetime-local" id="countdown-input">
+      <button onclick="startCountdown()">Démarrer</button>
+      <div class="output" id="countdown-output">En attente...</div>
+    </section>
+
+    <section class="widget" id="timer">
+      <h2>Minuteur</h2>
+      <input type="number" id="timer-input" placeholder="Secondes">
+      <button onclick="startTimer()">Démarrer</button>
+      <div class="output" id="timer-output">--</div>
+    </section>
+
+    <section class="widget" id="chrono">
+      <h2>Chronomètre</h2>
+      <div class="output" id="chrono-output">00:00:00</div>
+      <button onclick="startChrono()">▶️</button>
+      <button onclick="stopChrono()">⏸️</button>
+      <button onclick="resetChrono()">🔁</button>
+    </section>
+
+    <section class="widget" id="date">
+      <h2>Date du jour</h2>
+      <div class="output" id="date-output">--</div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
