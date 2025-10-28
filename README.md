@@ -31,17 +31,7 @@ Le stockage local (localStorage) pour conserver les sessions
 
 La logique front-end pour rendre l’expérience fluide et utile
 
-🏗️ Technologies utilisées
-Technologie	Rôle
-HTML5	Structure de la page
-CSS3	Mise en forme et design moderne
-JavaScript (ES6)	Logique du chronomètre et gestion du temps
-📂 Structure du projet
-TimeMater/
-│
-├── index.html        # Page principale du chronomètre
-├── style.css         # Styles et mise en forme
-└── script.js         # Logique du timer et interactions
+
 --------------------------------------------------------------------------------------
 
 🧑‍💻 Auteur
